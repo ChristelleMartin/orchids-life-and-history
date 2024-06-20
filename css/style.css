@@ -87,13 +87,19 @@ nav a:hover {
     max-width: 900px;
     width: 100%;
     border: 3px solid white;
-    position: relative;
 }
 
+.orchid-of-the-month {
+    position: relative;
+
+}
 .orchid-of-the-month__legend {
     position: absolute;
-    left: 0;
-    top: 0;
+    left: 3px;
+    top: 3px;
+    padding: 0.5rem;
+    background-color: #e94065;
+    border-bottom-right-radius: 5px;
 }
 
 /* Section grille */
