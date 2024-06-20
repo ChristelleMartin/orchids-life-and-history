@@ -72,6 +72,10 @@ nav a::after {
     content: '🌱'; 
 }
 
+nav a:hover {
+    color: #e94065;
+}
+
 .icon {
     max-width: 40px;
 }
