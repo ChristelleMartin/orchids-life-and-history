@@ -72,6 +72,11 @@ nav a::after {
     content: '🌱'; 
 }
 
+nav a.link::after {
+    padding: 0 6px;
+    content: ''; 
+}
+
 nav a:hover {
     color: #e94065;
 }
