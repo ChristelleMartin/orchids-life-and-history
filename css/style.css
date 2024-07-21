@@ -24,7 +24,7 @@ h2 {
     color: #e94065;
     font-size: 2.5rem;
     text-align: left;
-    padding: 2.5rem 0;
+    padding: 1.5rem 0 1rem 0;
 }
 
 p {
@@ -32,9 +32,24 @@ p {
     text-align: justify;
     line-height: 1.1rem;
 }
+
 a {
     color:rgb(82, 216, 113);
     text-decoration: none;
+}
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
 }
 
 .wrapper {
@@ -54,6 +69,8 @@ nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 nav li {
@@ -154,9 +171,9 @@ nav a:hover {
 }
 
 .right li {
-   list-style-type: none;
-   padding-bottom: 0.5rem;
-   color: rgb(82, 216, 113);
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+    color: rgb(82, 216, 113);
 }
 
 footer {
@@ -167,6 +184,37 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* Mise en forme de tableau */
+
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(82, 216, 113);
+    min-width: 400px;
+    max-width: 500px;
+    margin: 1rem auto;
+}
+
+caption {
+    caption-side: top;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead {
+    color: #e94065;
+    font-size: 1.2rem;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
 
 @media (max-width: 900px) {
     .down-section {
