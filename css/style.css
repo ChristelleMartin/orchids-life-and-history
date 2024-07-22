@@ -214,7 +214,7 @@ td:last-of-type {
 
 figure {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     padding: 5px;
     max-width: 300px;
     margin: auto;
@@ -263,7 +263,6 @@ figcaption {
     .right {
         width: 30%;
     }
-    
     .grid-card {
         width: 100%;
         grid-template-columns: repeat(4, 1fr);
@@ -271,5 +270,10 @@ figcaption {
     }
     .grid-card img:hover {
         transform: scale(2, 2);
+    }
+    figure {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
     }
 }
