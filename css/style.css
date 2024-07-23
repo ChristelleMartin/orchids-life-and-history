@@ -128,20 +128,18 @@ nav a.link::after {
 
 /* Section image mise en avant */
 
+.orchid-of-the-month {
+    position: relative;
+
+}
 .big-orchid {
     box-sizing: border-box;
     width: 300px;
     max-width: 900px;
     border: 3px solid white;
-
 }
 
-.orchid-of-the-month {
-    position: relative;
-    margin: 0 auto;
-}
-
-.orchid-of-the-month__legend {
+.orchid-legend {
     position: absolute;
     left: 5px;
     top: 10px;
