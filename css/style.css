@@ -26,6 +26,7 @@ h2 {
     font-size: 2rem;
     text-align: left;
     padding: 1.5rem 0 1rem 0;
+    margin-left: 1rem;
 }
 
 h3 {
@@ -33,7 +34,7 @@ h3 {
 }
 
 p {
-    margin-bottom: 1rem;
+    margin: 0 1rem 1rem 1rem;
     font-size: 1rem;
     text-align: justify;
     line-height: 1.2rem;
@@ -263,6 +264,12 @@ figcaption {
     text-align: center;
 }
 
+/* image page story */
+.borderWhite {
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+}
 
 @media (min-width: 900px) {
     h1 {
