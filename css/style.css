@@ -147,7 +147,7 @@ nav a.link::after {
     top: 10px;
     padding: 0.5rem;
     background-color: #e94065;
-    color: white;
+    color: black;
     border-bottom-right-radius: 5px;
     
 }
@@ -259,7 +259,7 @@ figure p {
 }
 
 figcaption {
-    color: black;
+    color: white;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
