@@ -132,7 +132,7 @@ nav a.link::after {
 
 .orchid-of-the-month {
     position: relative;
-
+    margin: 30px auto;
 }
 .big-orchid {
     box-sizing: border-box;
@@ -140,16 +140,14 @@ nav a.link::after {
     max-width: 900px;
     border: 3px solid white;
 }
-
 .orchid-legend {
     position: absolute;
+    width: 250px;
     left: 5px;
-    top: 10px;
+    top: -15px;
     padding: 0.5rem;
     background-color: #e94065;
-    color: black;
-    border-bottom-right-radius: 5px;
-    
+    color: black;   
 }
 
 /* Section grille accueil */
@@ -306,13 +304,19 @@ figcaption {
         font-size: 5rem;
         padding: 1.5rem;
     }
-
-    .big-orchid {
-        box-sizing: border-box;
-        width: 900px;
-        border: 3px solid white;
+    .orchid-of-the-month {
+        margin: 0;
     }
-
+    
+    .big-orchid {
+        display: block;
+        width: 900px;
+    }
+    .orchid-legend {
+        top: 10px;
+        border-bottom-right-radius: 5px;  
+    }
+    
     .col {
         display: flex;
         flex-direction: row;
