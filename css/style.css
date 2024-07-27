@@ -124,7 +124,8 @@ nav a.link::after {
 }
 
 .icon {
-    max-width: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 /* Section image mise en avant */
@@ -258,7 +259,7 @@ figure p {
 }
 
 figcaption {
-    color: #e94065;
+    color: black;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
