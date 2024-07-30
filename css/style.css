@@ -7,7 +7,7 @@
 /* Style global */
 
 body {
-    background-color: rgb(38, 39, 52);
+    background-color: #262734;
     color: white;
     margin: 1rem;
 }
@@ -54,7 +54,7 @@ ul, ol, li {
 }
 
 a {
-    color:rgb(82, 216, 113);
+    color:#52d871;
     text-decoration: none;
 }
 
@@ -62,19 +62,16 @@ a:hover {
     color: white;
 }
 
-ol {
+ol, ul {
     list-style-type: decimal;
-    list-style-position: inside;
+    list-style-position: outside;
+    padding: 0 4rem 0 4rem;
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
 ul {
     list-style-type: disc;
-    list-style-position: inside;
-    padding-left: 1rem;
-    margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
 }
 
 .wrapper {
@@ -96,6 +93,7 @@ nav ul {
     align-items: center;
     text-decoration: none;
     list-style-type: none;
+    padding: 0;
 }
 
 ul.navigation {
@@ -128,18 +126,20 @@ nav a.link::after {
     height: 40px;
 }
 
-/* Section image mise en avant */
+/* Page d'accueil - Section image mise en avant */
 
 .orchid-of-the-month {
     position: relative;
     margin: 30px auto;
 }
+
 .big-orchid {
     box-sizing: border-box;
     width: 300px;
     max-width: 900px;
     border: 3px solid white;
 }
+
 .orchid-legend {
     position: absolute;
     width: 250px;
@@ -150,7 +150,7 @@ nav a.link::after {
     color: black;   
 }
 
-/* Section grille accueil */
+/* Page d'accueil - Section grille */
 
 .down-section {
     display: flex;
@@ -197,7 +197,20 @@ footer p {
     text-align: center;
 }
 
-/* Mise en forme de tableau */
+/* Page aboutMe */
+
+blockquote {
+    display: block;
+    margin: 10px auto;
+    color: #52d871;
+    text-align: center;
+    font-style: italic;
+    max-width: 600px;
+    border-left: 8px solid #e94065;
+    border-right: 8px solid #e94065;
+}
+
+/* Page behind the code - Mise en forme de tableau */
 
 table {
     border-collapse: collapse;
@@ -227,7 +240,7 @@ td:last-of-type {
     text-align: center;
 }
 
-/* Grille des cartes de classification */
+/* Page classification - Grille des cartes de classification */
 
 .grid-card {
     margin: 1.5rem 0 5rem 0;
@@ -263,19 +276,22 @@ figcaption {
     text-align: center;
 }
 
-/* image page story */
+/* Page story - image */
 .borderWhite {
     border: 1px solid white;
     display: block;
     margin: 0 auto;
 }
 
+
+/* MEDIA QUERIES POUR LES ECRAN DE 900PX ET PLUS */
+
 @media (min-width: 900px) {
     h1 {
         font-size: 3rem;
         padding: 1.5rem;
     }
-    
+
     h2 {
         font-size: 2.5rem;
         padding: 1.5rem 0 1rem 0;
@@ -304,6 +320,7 @@ figcaption {
         font-size: 5rem;
         padding: 1.5rem;
     }
+
     .orchid-of-the-month {
         margin: 0;
     }
@@ -312,6 +329,7 @@ figcaption {
         display: block;
         width: 900px;
     }
+
     .orchid-legend {
         top: 10px;
         border-bottom-right-radius: 5px;  
@@ -327,41 +345,51 @@ figcaption {
         width: 50vw;
         max-width: 430px;
     }
+
     .rightCol {
         width: 50vw;
         max-width: 430px;
     }
+
     .down-section {
         flex-direction: row;
     }
+
     .photoGrid {
         width: 70%;
         grid-template-columns: repeat(4, 1fr);
         gap: 5px;
     }
+
     .photoGrid img {
         width: 100%;
         height: 100%;
     }
+
     .photoGrid img:first-child {
         grid-row: 1 / 3;
         grid-column: 1 / 3;
     }
+
     .photoGrid img:last-child {
         grid-row: 5 / 7;
         grid-column: 3 / 5;
     }
+
     .photoGrid img:hover {
         transform: scale(2, 2);
     }
+
     .right {
         width: 30%;
     }
+
     .grid-card {
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
+    
     .grid-card img:hover {
         transform: scale(2, 2);
     }
