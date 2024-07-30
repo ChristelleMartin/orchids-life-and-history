@@ -31,6 +31,7 @@ h2 {
 
 h3 {
     font-size: 1.2rem;
+    color: #e94065;
 }
 
 p {
@@ -74,10 +75,43 @@ ul {
     list-style-type: disc;
 }
 
+li {
+    margin-bottom: 1rem;
+}
+
 .wrapper {
     max-width: 900px;
     width: 90%;
     margin: 0 auto;
+}
+
+footer {
+    border-top: 2px solid #e94065;
+    padding: 1rem 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background: #e94065;
+    color: #52d871;
+    font-weight: 600;
+}
+
+button:hover {
+    background: white;
+}
+
+button a:hover {
+    color: #52d871;
+    font-weight: 700;
 }
 
 /* Navigation */
@@ -97,7 +131,7 @@ nav ul {
 }
 
 ul.navigation {
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 nav li {
@@ -172,6 +206,8 @@ nav a.link::after {
     margin: 5px auto;
 }
 
+/* Page accueil - Section aside right */
+
 .right {
     width: 100%;
     margin: 0 1rem;
@@ -182,19 +218,12 @@ nav a.link::after {
     padding-bottom: 0.5rem;
 }
 
-.right li {
-    list-style-type: none;
-    padding-bottom: 0.5rem;
+.right ul {
+    padding: 0 1rem 0.5rem 1rem;
     color: rgb(82, 216, 113);
 }
-
-footer {
-    border-top: 2px solid #e94065;
-    padding: 1rem 0;
-}
-
-footer p {
-    text-align: center;
+.right li {
+    list-style-type: none;
 }
 
 /* Page aboutMe */
@@ -389,7 +418,7 @@ figcaption {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
-    
+
     .grid-card img:hover {
         transform: scale(2, 2);
     }
