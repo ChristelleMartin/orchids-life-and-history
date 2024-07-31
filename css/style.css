@@ -159,25 +159,8 @@ nav li {
     font-weight: bold;
     font-size: 1.3rem;
 }
-
 nav li.icons {
-    margin-left: auto;
-    margin-right: 0;
-}
-
-nav a::after {
-    padding: 0 6px;
-    content: '🌱'; 
-}
-
-nav a.link::after {
-    padding: 0 6px;
-    content: ''; 
-}
-
-.icon {
-    width: 40px;
-    height: 40px;
+    display: none;
 }
 
 /* Page d'accueil - Section image mise en avant */
@@ -382,6 +365,27 @@ figcaption {
 
     ul {
         margin-bottom: 3rem;
+    }
+    
+    nav a::after {
+        padding: 0 6px;
+        content: '🌱'; 
+    }
+
+    nav li.icons {
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    
+    nav a.link::after {
+        padding: 0 6px;
+        content: ''; 
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
     }
     
     .title {
