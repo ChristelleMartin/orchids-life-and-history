@@ -46,22 +46,6 @@ ul, ol, li {
     line-height: 1.1rem;
 }
 
-.title {
-    font-family: 'Darling', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3.2rem;
-    text-align: center;
-    padding: 1rem;
-    line-height: 3rem;
-}
-
-a {
-    color:#52d871;
-    text-decoration: none;
-}
-
-a:hover {
-    color: white;
-}
 
 ol, ul {
     list-style-type: decimal;
@@ -79,6 +63,31 @@ li {
     margin-bottom: 1rem;
 }
 
+.greenText {
+    color: #52d871;
+}
+
+.whiteText {
+    color: white;
+}
+
+.title {
+    font-family: 'Darling', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 1rem;
+    line-height: 3rem;
+}
+
+a {
+    color:#52d871;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 .wrapper {
     max-width: 900px;
     width: 90%;
@@ -88,6 +97,7 @@ li {
 footer {
     border-top: 2px solid #e94065;
     padding: 1rem 0;
+    margin-top: 3rem;
 }
 
 footer p {
@@ -112,6 +122,16 @@ button:hover {
 button a:hover {
     color: #52d871;
     font-weight: 700;
+}
+
+.btnMulti {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+button.btnMulti {
+    margin: 1rem;
 }
 
 /* Navigation */
@@ -184,6 +204,12 @@ nav a.link::after {
     color: black;   
 }
 
+p.credit {
+    text-align: center;
+    font-style: italic;
+    color: #52d871;
+}
+
 /* Page d'accueil - Section grille */
 
 .down-section {
@@ -218,15 +244,28 @@ nav a.link::after {
     padding-bottom: 0.5rem;
 }
 
-.right ul {
-    padding: 0 1rem 0.5rem 1rem;
-    color: rgb(82, 216, 113);
-}
 .right li {
     list-style-type: none;
 }
 
+.right ul {
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.links {
+    color: rgb(82, 216, 113);
+}
+
+
 /* Page aboutMe */
+
+.roundPicture {
+    max-width: 300px;
+    border: 1px solid white;
+    border-radius: 250px;
+    display: block;
+    margin: 1rem auto;
+}
 
 blockquote {
     display: block;
@@ -313,7 +352,7 @@ figcaption {
 }
 
 
-/* MEDIA QUERIES POUR LES ECRAN DE 900PX ET PLUS */
+/* MEDIA QUERIES POUR LES ECRANS DE 900PX ET PLUS */
 
 @media (min-width: 900px) {
     h1 {
@@ -421,5 +460,13 @@ figcaption {
 
     .grid-card img:hover {
         transform: scale(2, 2);
+    }
+
+    .btnMulti {
+        flex-direction: row;
+    }
+    
+    button.btnMulti {
+        margin: 2rem;
     }
 }
