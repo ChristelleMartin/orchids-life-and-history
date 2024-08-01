@@ -462,7 +462,7 @@ figcaption {
 
     .rightCol {
         width: 50vw;
-        max-width: 430px;
+        max-width: 430px
     }
     .btnMulti {
         flex-direction: row;
