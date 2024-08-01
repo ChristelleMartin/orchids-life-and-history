@@ -46,7 +46,6 @@ ul, ol, li {
     line-height: 1.1rem;
 }
 
-
 ol, ul {
     list-style-type: decimal;
     list-style-position: outside;
@@ -406,22 +405,6 @@ figcaption {
         top: 10px;
         border-bottom-right-radius: 5px;  
     }
-    
-    .col {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .leftCol {
-        width: 50vw;
-        max-width: 430px;
-    }
-
-    .rightCol {
-        width: 50vw;
-        max-width: 430px;
-    }
 
     .down-section {
         flex-direction: row;
@@ -465,7 +448,22 @@ figcaption {
     .grid-card img:hover {
         transform: scale(2, 2);
     }
+        
+    .col {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    .leftCol {
+        width: 50vw;
+        max-width: 430px;
+    }
+
+    .rightCol {
+        width: 50vw;
+        max-width: 430px;
+    }
     .btnMulti {
         flex-direction: row;
     }
