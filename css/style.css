@@ -466,9 +466,7 @@ figcaption {
     }
     .btnMulti {
         flex-direction: row;
+        justify-content: space-evenly;
     }
-    
-    button.btnMulti {
-        margin: 2rem;
-    }
+
 }
