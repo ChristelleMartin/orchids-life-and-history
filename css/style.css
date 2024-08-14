@@ -290,6 +290,13 @@ td:last-of-type {
     text-align: center;
 }
 
+.snapCode {
+    display: block;
+    max-width: 400px;
+    margin: 2rem auto;
+    margin-top: 1rem;
+}
+
 /* Page classification - Grille des cartes de classification */
 
 .grid-card {
@@ -470,5 +477,9 @@ figcaption {
     
     button.btnMulti {
         margin: 2rem;
+    }
+
+    img.snapCode {
+        max-width: 700px;
     }
 }
