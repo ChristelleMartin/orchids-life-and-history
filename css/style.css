@@ -80,7 +80,7 @@ li {
 
 a {
     color:#52d871;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 a:hover {
@@ -110,7 +110,7 @@ button {
     border: none;
     border-radius: 10px;
     background: #e94065;
-    color: #52d871;
+    color: #155a25;
     font-weight: 600;
 }
 
@@ -119,7 +119,7 @@ button:hover {
 }
 
 button a:hover {
-    color: #52d871;
+    color: #155a25;
     font-weight: 700;
 }
 
