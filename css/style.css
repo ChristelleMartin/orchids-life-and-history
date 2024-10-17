@@ -80,7 +80,7 @@ li {
 
 a {
     color:#52d871;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 a:hover {
@@ -116,6 +116,7 @@ button {
 
 button:hover {
     background: white;
+    color:#155a25;
 }
 
 button a:hover {
