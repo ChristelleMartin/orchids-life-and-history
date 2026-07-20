@@ -102,7 +102,7 @@ footer p {
     text-align: center;
 }
 
-a.btn {
+.btnMulti a.btn {
     display: inline-block;
     margin: 1rem;
     padding: 1rem 1.25rem;
@@ -115,13 +115,13 @@ a.btn {
     text-align: center;
 }
 
-a.btn:visited {
+.btnMulti a.btn:visited {
     color: #071d0c;
 }
 
-a.btn:hover,
-a.btn:focus,
-a.btn:active {
+.btnMulti a.btn:hover,
+.btnMulti a.btn:focus,
+.btnMulti a.btn:active {
     background: white;
     color: #071d0c;
 }
@@ -129,8 +129,8 @@ a.btn:active {
 .btnMulti {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    gap: 1rem;
 }
 
 /* Navigation */
