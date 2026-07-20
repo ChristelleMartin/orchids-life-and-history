@@ -110,17 +110,17 @@ button {
     border: none;
     border-radius: 10px;
     background: #e94065;
-    color: #155a25;
+    color: #071d0c;
     font-weight: 600;
 }
 
 button:hover {
     background: white;
-    color:#155a25;
+    color:#071d0c;
 }
 
 button a:hover {
-    color: #155a25;
+    color: #071d0c;
     font-weight: 700;
 }
 
