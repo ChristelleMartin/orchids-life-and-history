@@ -115,9 +115,6 @@ a.btn {
     text-align: center;
 }
 
-a.btn:hover,
-a.btn:focus,
-a.btn:active,
 a.btn:visited {
     color: #071d0c;
 }
@@ -126,12 +123,13 @@ a.btn:hover,
 a.btn:focus,
 a.btn:active {
     background: white;
+    color: #071d0c;
 }
 
 .btnMulti {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
