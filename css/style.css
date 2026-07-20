@@ -103,7 +103,7 @@ footer p {
     text-align: center;
 }
 
-button {
+button a {
     display: block;
     margin: 1rem auto;
     padding: 1rem;
